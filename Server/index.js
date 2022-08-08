@@ -8,5 +8,5 @@ var app =express()
 app.use(bodyParser.json())
 app.use(cors({origin:'*'}));
 
-app.listen(1234,() => console.log('Server started at port:1234'));
+app.listen(process.env.PORT || 1234,() => console.log('Server started at port:1234'));
 app.use('/user',user);
