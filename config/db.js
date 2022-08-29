@@ -1,5 +1,5 @@
 const mongoose= require('mongoose')
-mongoose.connect('mongodb+srv://abc:123@cluster0.zbrsy.mongodb.net/test',
+mongoose.connect('mongodb+srv://abc:123@photogallery.ztidqli.mongodb.net/test',
 {
     useNewUrlParser:true,
     useUnifiedTopology:true
